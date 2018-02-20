@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*
+{ 
+    margin: 0; 
+    padding: 0;
+}
+
+/*Changes won't apply if declared as: body {...}*/
+#principal
+{
+    font-size: 62.5%/1.5;
+    background-color: #ffffff;
+    font-family: 'Open Sans', 'Source Sans Pro', sans-serif;
+}
+
+/*Changes won't apply if declared as: h1 {...}*/
+#principal h1
+{ 
+    font-size: 3.5em; 
+} 
+
+#principal h2
+{ 
+    font-size: 2.6em;     
+} 
+
+#principal h3
+{ 
+    font-size: 2.5em; 
+} 
+
+#principal h4
+{ 
+    font-size: 1.4em;
+    font-weight: 700;
+} 
+
+#principal h5
+{ 
+    font-size: 1.4em;     
+} 
+
+
+
+.btest
+{
+    border: 2px solid #000000;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.right
+{
+    float: right;
+}
+
+.left
+{
+    float: left;
+}
+
+.relative
+{
+    position: relative;
+}
+
+nav, nav a
+{
+    background-color: #c23028;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    height: 44px;
+    padding: 3px 0;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.top-left
+{
+    padding: 0;
+    font-size: 1.0em;
+    margin: 9px 20px;
+}
+
+.top-links
+{
+    padding: 0;
+    font-size: 1.0em;
+    margin: 9px 20px;
+}
+
+.top-links li
+{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.top-links a:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header
+{
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    background-size: cover;
+    background-color: #235b7b;
+    background-image: url("images/city-scape.svg");
+}
+
+.header-top
+{
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo
+{
+    width: 10%;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.logo img
+{
+    width: 100%;
+    height: auto;
+}
+
+.search
+{
+    width: 73%;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+form.search input
+{
+    width: 95%;
+    float: left;
+    padding: 13px;
+    font-size: 1.1em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgb(31, 82, 111);
+}
+
+form.search input:focus{
+    outline: none;
+}
+
+form.search button
+{
+    width: 5%;
+    float: left;
+    padding: 11px;
+    font-size: 1.3em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: none;
+    background-color: rgb(31, 82, 111);
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.login
+{
+    margin: 0 0 0 5px;
+    padding: 0;
+    width: auto;
+    float: left;
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.login-list li
+{
+    display: inline-block;
+}
+
+.login img
+{
+    width: auto;
+    height: 43px;
+}
+
+.login a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.login a:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.intro
+{
+    width: 100%;
+    height: 340px;
+    color: #ffffff;
+}
+
+.intro-text
+{
+    width: 44%;
+    margin: 10px 0 0 9%;
+    float: left;
+}
+
+.intro-text h1
+{
+    margin-bottom: 25px;
+}
+.intro-text p
+{
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+
+.signup-btn
+{
+    border: none;
+    border-radius: 30px;
+    padding: 8px 30px 8px 30px;
+    margin: 18px 0;
+    font-size: 1.3em;
+    text-align: center;
+    display: inline-block;
+    background-color: #f09233;
+}
+
+.signup-btn:hover
+{
+    background-color: #e97e11;
+}
+
+.orgs
+{
+    background-color: #273546;
+    color: #ffffff;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.orgs-center
+{
+    width: 84%;
+    margin: 10% 0 0 10%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.orgs-img
+{
+    width: 52%;
+    height: auto;
+    float: left;
+}
+
+.orgs-items
+{
+    width: 43%;
+    margin: 0 0 0 20px;
+    float: right;
+    font-size: 1.0em;
+    overflow: hidden;
+}
+
+.orgs-items a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.orgs-items a:hover{
+    color: #ffffff;
+}
+
+.orgs-items li
+{
+    line-height: 2.8em;
+    margin-left: 20px;
+    padding-left: 8px;
+    font-size: 1.1em
+}
+
+#orgs p
+{
+    font-size: 1.2em;
+}
+.orgs-btn
+{
+    border: none;
+    border-radius: 30px;
+    padding: 8px 30px 8px 30px;
+    margin: 13px 0;
+    font-size: 1.2em;
+    text-align: center;
+    display: inline-block;
+    background-color: #cb3837;
+}
+
+.orgs-btn:hover
+{
+    background-color: #ab2e2e;
+}
+
+.about
+{
+    width: 100%;
+    height: 510px;
+    margin: 0;
+    padding: 9em;
+    color: #ffffff;
+    background-size: cover;
+    background-color: #206f9c;
+    background-image: url("images/forklift.svg");
+    overflow: hidden;
+}
+
+.about-text
+{
+    width: 35%;
+    float: left;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.about-text h2
+{
+    line-height: 1.0em;
+    margin-top: 0;
+    margin-bottom: 1.0em;
+}
+
+.about-text p
+{
+    font-size: 1.3em;
+}
+
+.install-btn
+{
+    border: none;
+    border-radius: 30px;
+    padding: 8px 25px 8px 25px;
+    margin: 16px 0;
+    font-size: 1.4em;
+    text-align: center;
+    display: inline-block;
+    background-color: #34495e;
+}
+
+.install-btn:hover
+{
+    background-color: #263543;
+}
+
+.blocks
+{
+    width: 100%;
+    height: 500px;
+    padding-top: 40px;
+}
+
+.blocks-title
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.blocks-title p{
+    color: #6d7986;
+    font-size: 1.1em;
+    margin-top: 2em;
+}
+
+.p-column{
+    font-size: 1.1em;
+    color: #6d7986;
+}
+
+.blocks-column{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 0 40px 0 40px;
+}
+
+.bml{
+    margin: 20px 0 0 7%;
+}
+
+.bmr{
+    margin: 20px 5% 0 0;
+}
+
+.blocks-column a, .blocks-column a:hover{
+    color: #cb3837;
+}
+
+.blocks-column-midle{
+    width: 25%;
+    float: left;
+    margin: 20px 5% 0 5%;
+    padding: 0 40px 0 40px;
+    text-align: center;
+}
