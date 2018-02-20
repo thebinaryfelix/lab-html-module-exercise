@@ -1,1 +1,0 @@
-Clone of the first four sections of the npm website, for educational purposes.
